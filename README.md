@@ -17,7 +17,7 @@ npm install -g npm
 - Вставляешь ссылку на репозиторий:
 
 ```bash
-https://github.com/your-repo/fitness-landing.git
+https://github.com/Ilya-Stoyanov/fitness-landing-react
 ```
 
 - Выбираешь папку для проекта и нажимаешь Clone
