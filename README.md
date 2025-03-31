@@ -55,7 +55,6 @@ npm run dev
 }
 
 ```
-
 ### Главный компонент App.tsx
 
 - Применяются font-montserrat и font-dmsans.
@@ -87,6 +86,28 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>,
 )
+```
+
+### Проверь settings.json в VS Code
+- Открой настройки (Ctrl + Shift + P → Open Settings (JSON)) и добавь эти параметры:
+
+```sh
+{
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "javascriptreact": "javascript",
+    "typescriptreact": "typescript"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "clsx\\(([^)]*)\\)",
+    "cn\\(([^)]*)\\)"
+  ]
+}
+
 ```
 
 ### Больше уроков 
