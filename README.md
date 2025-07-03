@@ -176,6 +176,26 @@ createRoot(document.getElementById('root')!).render(
 
 ```
 
+### Section Home
+
+#### Text 
+- Unrivaled Gym. Unparalleled Training Fitness Classes. World Class Studios to get the Body Shapes That you Dream of.. Get Your Dream Body Now.
+
+- Join Now
+
+- Learn More
+
+```sh
+export const sponsorImages = [
+    { src: SponsorRedBull, alt: "Sponsor-RedBull" },
+    { src: SponsorForbes, alt: "Sponsor-Forbes" },
+    { src: SponsorRedBull, alt: "Sponsor-RedBull" },
+    { src: SponsorForbes, alt: "Sponsor-Forbes" },
+    { src: SponsorFortune, alt: "Sponsor-Fortune" },
+];
+
+```
+
 ### Больше уроков 
 
 [YouTube](https://www.youtube.com/channel/UCStPiUDdMG-aJPziQyqVZVg/)
