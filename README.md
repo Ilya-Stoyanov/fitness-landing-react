@@ -358,6 +358,26 @@ export const withDelay = (index: number, base: number = 0.2, duration: number = 
 
 ```
 
+### Section Footer
+
+#### Text
+
+- Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum purus et arcu massa dictum condimentum. Augue scelerisque iaculis orci ut habitant laoreet. Iaculis tristique.
+- © Evogym All Rights Reserved.
+- Contact Us
+- Tempus metus mattis risus volutpat egestas.
+- (333)425-6825
+
+```sh
+export const footerLinks = [
+  { label: "Massa orci senectus", link: "#" },
+  { label: "Et gravida id et etiam", link: "#" },
+  { label: "Ullamcorper vivamus", link: "#" },
+];
+```
+
+
+
 ### Больше уроков
 
 [YouTube](https://www.youtube.com/channel/UCStPiUDdMG-aJPziQyqVZVg/)
